@@ -3,6 +3,7 @@
   "builds": [{ "src": "server.js", "use": "@vercel/node" }],
   "routes": [
     { "src": "/api/votes", "dest": "/server.js" },
-    { "src": "/api/vote", "dest": "/server.js" }
+    { "src": "/api/vote", "dest": "/server.js" },
+    { "src": "/api/debug/check-file", "dest": "/server.js" }
   ]
 }
